@@ -1,0 +1,10 @@
+tensorflow
+matplotlib
+pillow
+torch
+tqdm
+albumentations
+torchvision
+super-image
+gradio
+google-cloud-storage

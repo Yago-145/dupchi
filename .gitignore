@@ -1,0 +1,24 @@
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Pyre type checker
+.pyre/
+**__pycache__
+
+# MacOS
+.DS_Store
+
+# NEW IN COOKIECUTTER-DS-GENERIC
+notebooks_old/
+data_cache**/
+cache**/
+exp/
+z_old/
+*.log
+
+data/
+.vscode/
+app/temp_lr
+app/temp_hr
+app/temp_img
+app/gcp
