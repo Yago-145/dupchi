@@ -29,7 +29,7 @@ git clone https://github.com/Yago-145/dupchi.git
 ```
 2. Crea un entorno con Anaconda:
 ```bash
-conda create --name dupchi
+conda create --name dupchi python=3.10
 ```
 3. Activa el entorno:
 ```bash
