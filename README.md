@@ -24,30 +24,43 @@ Bienvenido al repositorio de DUPCHI, una aplicación avanzada de aprendizaje pro
 Para usar DUPCHI, sigue estos pasos:
 
 1. Clona el repositorio:
+
 ```bash
 git clone https://github.com/Yago-145/dupchi.git
 ```
+
 2. Crea un entorno con Anaconda:
+
 ```bash
 conda create --name dupchi python=3.10
 ```
+
 3. Activa el entorno:
+
 ```bash
 conda activate dupchi
 ```
+
 4. Instala el proyecto:
+
 ```bash
 pip install -e .
 ```
+
 5. Instala Poetry:
+
 ```bash
 pip install poetry
 ```
+
 6. Ejecuta Poetry:
+
 ```bash
 poetry install
 ```
+
 7. Inicia la aplicación:
+
 ```bash
 make app
 ```
@@ -77,5 +90,8 @@ Asegúrate de tener configurado correctamente el acceso a GCP para evitar proble
 
 Modelo de ESRGAN cogido del siguiente [repositorio de GitHub](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/GANs/ESRGAN), pesos del modelo descargados de este [enlace](https://github.com/aladdinpersson/Machine-Learning-Collection/releases/tag/1.0).
 
-`dupchi` creado a partir de [Angel Martinez-Tenor's Data Science Template](https://github.com/angelmtenor/ds-template), que a su vez fue desarrollado en base a la [py-pkgs-cookiecutter template](https://github.com/py-pkgs/py-pkgs-cookiecutter)
+Dataset extraído de Kaggle, url [aquí](https://www.kaggle.com/datasets/andrewmvd/lung-and-colon-cancer-histopathological-images).
 
+Borkowski AA, Bui MM, Thomas LB, Wilson CP, DeLand LA, Mastorides SM. Lung and Colon Cancer Histopathological Image Dataset (LC25000). arXiv:1912.12142v1 [eess.IV], 2019
+
+`dupchi` creado a partir de [Angel Martinez-Tenor's Data Science Template](https://github.com/angelmtenor/ds-template), que a su vez fue desarrollado en base a la [py-pkgs-cookiecutter template](https://github.com/py-pkgs/py-pkgs-cookiecutter)
